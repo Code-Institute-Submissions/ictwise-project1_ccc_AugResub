@@ -3,6 +3,7 @@
 /*---------------------------------------------Colours*/
 .bg-color-name-title {
     background-color: #065a06;
+    color: white;
 }
 
 .ui-menu-color-home {
@@ -56,9 +57,37 @@ header{
             -moz-transition: all .5s ease-in-out;
             -webkit-transition: all .5s ease-in-out;
             }
-
+          
+            .logo3 {
+           
+            background-position: left;
+            background-repeat: no-repeat;
+            min-height: 80px;
+            transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+            }
+            
+            /* .logo4 {
+              background: url("../images/bc_supported_by_px_acc.1416215841.png");
+              background-position: left;
+              background-repeat: no-repeat;
+              min-height: 80px;
+              transition: all .5s ease-in-out;
+              -moz-transition: all .5s ease-in-out;
+              -webkit-transition: all .5s ease-in-out;
+              }
+              .logo5 {
+                background: url("../images/follow-1277029__480.png");
+                background-position: left;
+                background-repeat: no-repeat;
+                min-height: 80px;
+                transition: all .5s ease-in-out;
+                -moz-transition: all .5s ease-in-out;
+                -webkit-transition: all .5s ease-in-out;
+                } */
             .name {
-                font-family: "Exo", sans-serif;
+                font-family: "Raleway", sans-serif;
                 font-weight: 100;
                 font-size: 46px;
                 margin-top: 50px;
@@ -66,7 +95,7 @@ header{
                 display:inline;
             }
             .title {
-                font-family: "Roboto", sans-serif;
+                font-family: "Raleway", sans-serif;
                 font-weight: 200;
                 font-size: 28px;
                 margin-top: 20px;
@@ -85,11 +114,11 @@ header{
             }
             
             #nav li {
-                font-size: 1px;
+                font-size: 14px;
                 padding: 0;
             }
             .menuitem {
-                height: 60px;
+                height: 68px;
                 text-align: center;
                 padding: 0;
             }
@@ -97,13 +126,13 @@ header{
                 width: 100%;
                 text-decoration: none;
                 color: #fff;
-                height: 60px;
+                height: 68px;
             }
             .menuitem a i {
-                padding-top: 22px;
-                display: block;
+                padding-top: 14px;
+                /* display: block; */
                 color: #fafafa;
-                font-size: 14px;
+                font-size: 18px;
             }
             .menuitem span {
                 display:block;
@@ -118,7 +147,61 @@ header{
         
 /*--------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+.hvr-sweep-to-right::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 120px;
+
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+  background-color: #065a06;
+  color: #fafafa;
+  min-height: 80px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.cv-pdf i {
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: #a83030;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #a83030;
+}
+#footer-details {
+  padding: 20px;
 }
