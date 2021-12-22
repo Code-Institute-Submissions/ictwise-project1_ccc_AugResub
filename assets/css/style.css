@@ -1,247 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=:Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+/*---------------------------------------------Colours*/
+.bg-color-name-title {
+    background-color: #065a06;
 }
 
-body {
-    font-family: "Raleway", sans-serif;
-    color: #1b1b1b;
-  }
-  
-  a {
-    color: #0B610B;
-    text-decoration: none;
-    /* position: absolute; */
-    top: 50%;
-  }
-  
-  a:hover {
-    color: #134e13;
-    text-decoration: none;
-    color: #134e13;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
-  }
-  #topbar {
-    background: #0B610B;
-    /* padding: 5px 0; */
-    font-size: 24px;
-    color: #f2f7f2;
-    margin-left: 148px;
-    height: 48px;
-  }
-  #topbar a {
-    padding: 50px ;
-    font-size: 24px;
-    color: #f2f7f2;
-    margin: 15px;
-    margin-top: 15px;
-    
-    
-
-
-  }
-
-  img {
-    width: 138px;
-    height: 50px;
-    position: absolute;
-    left:0;
-    top:0;
+.ui-menu-color-home {
+    background-color: #249e05;
 }
 
-  /* #topbar .contact-info i {
-    font-style: normal;
-    color: #f2f7f2;
-  } */
-  .logo-container { 
-    height: 8%;
-    width:180px;
-    position: absolute;
-    border: 3px solid green; 
-  }
-  
-  .vertical-center {
+.ui-menu-color-ride {
+    background-color: #a83030;
+}
+
+.ui-menu-color-join {
+    background-color: #249e05;
+}
+
+.ui-menu-color-contact {
+    background-color: #a83030;
+}
+
+
+body{
+    font-family:Raleway, Open-Sans;
+}
+
+
+/*---------------------------------------------heading*/
+header{
     margin: 0;
-    position: absolute;
-    background: url("../images/MainLogoJPEGSmall-Custom.jpg") no-repeat;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  .vertical-right {
-    margin: 0;
-    position: relative;
-    background: url("../images/MainLogoJPEGSmall-Custom.jpg") no-repeat;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  /* #logo {
-
-    font-size: 280%;
-    background: url("../images/MainLogoJPEGSmall-Custom.jpg") no-repeat;
-    position: absolute; 
-    top: 50%;
-} */
-#menu{
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-    
-}
-#menu li {
-    float: right;
-    margin: 30px;
-    text-decoration: none;
-    list-style-type: none;
-}
-  
-  #topbar .contact-info i a {
-    line-height: 0;
-    transition: 0.3s;
-    
-  }
-  #topbar .contact-info i a:hover {
-    color: #404140;
-  }
-.centered {
-    position: fixed;
-    left: 200px;
-    margin-top: 50px;
-    margin-left: 100px;
-      }
-#hero {
-    height:500px;
-    width: 75%;
-    background: url("../images/CCC-by-Castle-1010x300.jpg") no-repeat center center;
-    background-size: cover;
-    
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-#hero-outer{
-    height:600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(.8);
-    }
-    to{
-        transform: scale(.9);
-    }
-
-    /* navbar */
-
-}
-.navbar {
-    padding: 0;
-    float:center;
-    background:blue;
-      }
-.navbar ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
-        align-items: center;
-        color: #fcfcfc;
-      }
-      .navbar li {
-        position: relative;
-      }
-      .navbar a, .navbar a:focus {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 0 10px 30px;
-        font-family: "Poppins", sans-serif;
-        font-size: 14px;
-        color: #fcfcfc;
-        white-space: nowrap;
-        transition: 0.3s;
-      }
-      .navbar a i, .navbar a:focus i {
-        font-size: 12px;
-        line-height: 0;
-        margin-left: 5px;
-      }
-      .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-        color: #0B610B;
-      }
-      .navbar .getstarted, .navbar .getstarted:focus {
-        background: #0B610B;
-        padding: 8px 20px;
-        margin-left: 30px;
-        border-radius: 4px;
-        color: #fff;
-      }
-      .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-        color: #fff;
-        background: #0B610B;
-      }
-      .navbar .dropdown ul {
-        display: block;
-        position: absolute;
-        left: 24px;
-        top: calc(100% + 30px);
-        margin: 0;
-        padding: 10px 0;
-        z-index: 99;
-        opacity: 0;
-        visibility: hidden;
-        background: #fff;
-        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-        transition: 0.3s;
-      }
-      .navbar .dropdown ul li {
-        min-width: 200px;
-      }
-      .navbar .dropdown ul a {
-        padding: 10px 20px;
-        font-size: 14px;
-        text-transform: none;
-        color: #545454;
-      }
-      .navbar .dropdown ul a i {
-        font-size: 12px;
-      }
-      .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-        color: #0B610B;
-      }
-      .navbar .dropdown:hover > ul {
-        opacity: 1;
-        top: 100%;
-        visibility: visible;
-      }
-      .navbar .dropdown .dropdown ul {
-        top: 0;
-        left: calc(100% - 30px);
-        visibility: hidden;
-      }
-      .navbar .dropdown .dropdown:hover > ul {
-        opacity: 1;
-        top: 0;
-        left: 100%;
-        visibility: visible;
-      }
-      @media (max-width: 1366px) {
-        .navbar .dropdown .dropdown ul {
-          left: -90%;
+     }
+ 
+.heading {
+        margin-left: 50px;
         }
-        .navbar .dropdown .dropdown:hover > ul {
-          left: -100%;
-        }
-      }
+
+        .logo2 {
+            background: url("../images/CCC-by-Castle-1010x300.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 280px;
+            transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+            }
+        .logo {
+            background: url("../images/rosie.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 360px;
+            transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+            }
+
+            .name {
+                font-family: "Exo", sans-serif;
+                font-weight: 100;
+                font-size: 46px;
+                margin-top: 50px;
+                color: #fff;
+                display:inline;
+            }
+            .title {
+                font-family: "Roboto", sans-serif;
+                font-weight: 200;
+                font-size: 28px;
+                margin-top: 20px;
+                margin-bottom: 90px;
+                color: #fff;
+                display:inline;
+            }
+            .list-inline-item:not(:last-child){
+                margin: 0;
+            }
+            .menucontainer {
+                font-size: 0;
+            }
+            #nav {
+                margin-bottom:0;
+            }
+            
+            #nav li {
+                font-size: 1px;
+                padding: 0;
+            }
+            .menuitem {
+                height: 60px;
+                text-align: center;
+                padding: 0;
+            }
+            .menuitem a {
+                width: 100%;
+                text-decoration: none;
+                color: #fff;
+                height: 60px;
+            }
+            .menuitem a i {
+                padding-top: 22px;
+                display: block;
+                color: #fafafa;
+                font-size: 14px;
+            }
+            .menuitem span {
+                display:block;
+                width: 100%;
+                padding-top: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
+        
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
