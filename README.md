@@ -5,7 +5,7 @@ I'm a member of Caerphilly Cycling Club. We have a serviceable website, it's sta
 From a design point of view the design is dated and does not reflect the dynamic nature of the group.
  
 # Demo
-A live demo of this project can be found [here](https://ictwise.github.io/caerhilly-cycling-club/). 
+A live demo of this project can be found [here](https://ictwise.github.io/project1_ccc/). 
 ![Desktop Demo](https://www.caerphillycc.co.uk/wp-content/uploads/2021/05/CCC-Castle-Path-1010x300.jpg "Desktop Demo")
 # UX
 ## Users stories
