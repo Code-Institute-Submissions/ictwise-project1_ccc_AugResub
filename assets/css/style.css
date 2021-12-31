@@ -1,266 +1,243 @@
-@import url('https://fonts.googleapis.com/css?family=:Raleway:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
-/*---------------------------------------------Colours*/
-.bg-color-name-title {
-    background-color: #065a06;
-    color: white;
-}
-
-.ui-menu-color-home {
-    background-color: #249e05;
-}
-
-.ui-menu-color-ride {
-    background-color: #a83030;
-}
-
-.ui-menu-color-join {
-    background-color: #27bd27;
-    }
-
-.ui-menu-color-contact {
-    background-color: #721d1d;
-}
-
-.bg-index-first-section {
-    background-color: #fff;
-}
-
-body{
-    font-family:Raleway, Open-Sans;
-}
-
-h1 {
-  font-family:Raleway, Open-Sans;
-  font-size: 36px;
-  line-height: 40px;
-}
-
-h2 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-h3 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-
-h5 {
-  font-family:Raleway, Open-Sans;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-h6 {
-  font-size: 12px;
-  line-height: 20px;
-}
-
-/*---------------------------------------------heading*/
-header{
-    margin: 0;
-     }
- 
-.heading {
-        margin-left: 50px;
-        }
-
-        .logo2 {
-            background: url("../images/CCC-by-Castle-1010x300.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 280px;
-            transition: all .5s ease-in-out;
-            -moz-transition: all .5s ease-in-out;
-            -webkit-transition: all .5s ease-in-out;
-            }
-        
-        .logo3 {
-           
-            background-position: left;
-            background-repeat: no-repeat;
-            min-height: 80px;
-            transition: all .5s ease-in-out;
-            -moz-transition: all .5s ease-in-out;
-            -webkit-transition: all .5s ease-in-out;
-            }
-            
-
-            /* .name {
-                font-family: "Raleway", sans-serif;
-                font-weight: 100;
-                font-size: 46px;
-                margin-top: 50px;
-                color: #fff;
-                display:inline;
-            } */
-            .title {
-                font-family: "Raleway", sans-serif;
-                font-weight: 200;
-                font-size: 28px;
-                margin-top: 20px;
-                margin-bottom: 90px;
-                color: #fff;
-                display:inline;
-            }
-            /* .list-inline-item allowing the nav to fit on one line and .menucontainer */
-            .list-inline-item:not(:last-child){
-                margin: 0;
-            }
-            .menucontainer {
-                font-size: 0;
-            }
-
-            /* 
-            ---------------------------------------------------navbar
-            #nav removing whitespace below navbar */
-            #nav {
-                margin-bottom:0;
-            }
-            
-            #nav li {
-                font-size: 14px;
-                padding: 0;
-            }
-            .menuitem {
-                height: 68px;
-                text-align: center;
-                padding: 0;
-            }
-            .menuitem a {
-                width: 100%;
-                text-decoration: none;
-                color: #fff;
-                height: 68px;
-            }
-            .menuitem a i {
-                padding-top: 14px;
-                color: #fafafa;
-                font-size: 18px;
-            }
-            .menuitem span {
-                display:block;
-                width: 100%;
-                padding-top: 5px;
-                text-align: center;
-                text-transform: uppercase;
-                font-size: 14px;
-                font-weight: 300;
-                letter-spacing: 2px;
-            }
-    
-             /*--------------------------------------------Hover.css*/
-
-.hvr-sweep-to-right::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 120px;
-
-}    
-/*--------------------------------------------index page middle section.css*/
-
-hr {
-  border-top: 1px solid #0b8615;
-  width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding-bottom: 15px;
-} 
-
- /*--------------------------------------------index page middle section.css*/
-#aboutheading {
-  margin:2% 1% 2% 1%; 
+  padding: 0;
+  background-color: #1c7207;
 }
- #aboutblurb {
-   margin:1% 12% 1% 12%;
- }
-            .row-table {
-              display:table;
-            }
-
-            .section-column {
-              display: table-cell;
-              padding: 0 30px 30px;
-              float: none;
-            }
-
-            .section-heading {
-              font-family: Raleway, open-sans;
-              font-weight: 300;
-              margin-top: 25px;
-              margin-bottom: 40px;
-              overflow: hidden;
-            }
-
-
-
-/* ----------------------------------------times section */
-#times {
-    background: url("../images/2020-09-27-16.02.21-scaled-1010x300.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    width: 100%;
-    overflow: hidden;
-    margin-left: 15px;
-    
+/* -----------------header */
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.2em;
+}
+h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-weight;;
+}
+header {
+}
+.green {
+  background-color: #1c7207;
+}
+.white {
+  background-color: #fff;
+}
+.space-around {
+  padding: 2%;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  margin-right: auto;
+  width: 160px;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  padding-right:1%;
+  z-index: 1;
+}
+.navbar {
+  /* background-color: #1c7207; */
+  display: inline-block;
+  width: 79%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+#about {
+  border-top: 15px solid #525252 ;
+  border-bottom: 15px solid #525252 ;
+}
+/* .nav__links {
+  list-style: none;
 }
 
-#times  div {
-  color:rgb(242, 243, 241);
-  width: 32%;
-  height: 170px;
-  float: left;
-  padding: 30px 0 0 0px;
-  text-align: center;
-  margin: 4px;
-  background-color: rgba(0,0,0,0.59);
-  
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
 }
-#times h2 {
-  color: #ffffff;
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: grey;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(17, 64, 80, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+button: hover {
+  background-color: rgba(0, 136, 169, 0.9);
+} */
+
+/* https://www.youtube.com/watch?v=PwWHL3RyQgk */
+
+/* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
+
+#menuToggle {
+  display: block;
+  position: relative;
+
+  padding: 30px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #fff;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:nth-of-type(1):hover {
+  color: #ff0000;
+}
+
+#menuToggle a:nth-of-type(2):hover {
+  color: #8e1600;
+}
+
+#menuToggle a:nth-of-type(3):hover {
+  color: #b53737;
+}
+
+#menuToggle a:nth-of-type(4):hover {
+  color: #9e1a1a;
+}
+
+#menuToggle input {
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 20px;
+
+  margin: 0;
+  padding: 20px;
+
+  cursor: pointer;
+
+  opacity: 0; /* Hides the checkbox */
+  z-index: 2; /* Places the checkbox over the hamburger icon */
+
+  -webkit-touch-callout: none;
+}
+
+/*  Styling the hamburger */
+#menuToggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  margin-bottom: 4px;
+  position: relative;
+  /* button colour */
+  background: #fff;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    /* was 0.5s */ background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    /* was 0.5s */ opacity 0.55s ease; /* was 0.55s */
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Turns the hamburger slices into a crossmark when clicked
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(1px, 3px);
+  background: #ffffff;
+}
+
+/* Hides the middle slice */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, 0);
+}
+
+/* Positions the menu absolutely at the top left of the screen */
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 80%;
+  height: 100vh;
+  margin: 0;
+    padding: 30px;
+  padding-top: 80px;
+  /* styles mobile menu */
+  background: #1c7207;
+  list-style-type: none;
+  /* Stops the flickering of text in Safari */
+  -webkit-font-smoothing: antialiased;
+
+  transform-origin: 0% 0%;
+  transform: translate(-200%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+/* Slides the menu in from the left! */
+#menuToggle input:checked ~ ul {
+  transform: none;
 }
 
 /* ----------------------------------------Footer */
 
 footer {
-  background-color: #065a06;
+  /* background-color: #525252; */
   color: #fafafa;
   min-height: 80px;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* margin-left: 15px;
+	margin-right: 15px; */
   padding-top: 25px;
+  border-top: 15px solid #525252 ;
 }
+footer img {
+  padding-top:5%;
+}
+
 .container-fluid {
-  width: auto;
-  padding-right: 31px;
-  padding-left: 15px;
-  margin-right: 0px;
-  margin-left: 15px;   
-  }   
-
-/* .cv-pdf i {
-  font-size: 18px;
-  color: #fafafa;
-  text-align: center;
-  padding-left: 5px;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-} */
-
-.cv-pdf i:hover {
-  color: #a83030;
+  width: 100%;
+  /* padding-right: 31px;
+	padding-left: 15px;
+	margin-right: 0px;
+	margin-left: 15px; */
 }
 
+
+/* -------------------social links */
 .social-links {
   padding-bottom: 15px;
 }
@@ -284,41 +261,149 @@ footer {
 .social-links li a i:hover {
   background: #a83030;
 }
+
 #footer-details {
   padding: 20px;
 }
-/* ----------------------------------------responsive mobile */
-@media screen and (max-width: 943px){
-  #times {
-    background: url("../images/2020-09-27-16.02.21-scaled-1010x300.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    width: 100%;
-    overflow: hidden;
-    margin-left: 1rem;
-    
-}
 
-#times  div {
-  color:rgb(242, 243, 241);
-  width: 30%;
-  height: 8.5rem;
-  float: left;
-  padding: 3px 0 0 0px;
-  text-align: center;
-  margin: 1px;
-  background-color: rgba(0,0,0,0.59);
+/* table styling */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: #fff;
   
 }
-#times h2 {
-  font-size: .9rem;
-  line-height: 24px;
+table td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 }
-#times h3 {
-  font-size: .7rem;
-  line-height: 24px;
+table th {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
 }
-.mobile-hide {
-  display: none;
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  vertical-align: top;
+  background-color: #fff;
+}
+table h3, h2 {
+  color: #000;
+  background-color: #fff;
+}
+
+/* hereo section */
+.hero {
+  background: url("../images/CCC-by-Castle-1010x300.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* .section-heading {
+  font-family: Raleway, open-sans;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  overflow: hidden;
+} */
+/* Media queries for a seamless user experience.
+** Tablets
+*/
+@media only screen and (min-width: 768px) {
+  #menuToggle input,
+  #menuToggle span {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: row;
+
+    background: #1c7207;
+
+    padding: 0;
+    padding-left: 15px;
+    height: auto;
+
+    transform: none;
+    transition: none;
+  }
+
+  #menu li {
+    padding: 15px;
+    background-color: #1c7207;
+  }
+  /* 
+  #menuToggle a {
+    color: #232323;
+  } */
+
+  /* #menuToggle a {
+    color: #232323;
+  } */
+
+  .underbar {
+    position: absolute;
+    top: 45px;
+    left: -10px;
+
+    width: 0;
+    height: 4px;
+    background: rgba(100, 100, 200, 0);
+    -webkit-transition: 0.5s ease;
+  }
+
+  #menuToggle a:nth-of-type(1):hover ~ .underbar {
+    left: 28px;
+    width: 48px;
+    background: #ff0000;
+  }
+
+  #menuToggle a:nth-of-type(2):hover ~ .underbar {
+    left: 100px;
+    width: 48px;
+    background: #8e1600;
+  }
+
+  #menuToggle a:nth-of-type(3):hover ~ .underbar {
+    left: 150px;
+    width: 68px;
+    background: #b53737;
+  }
+
+  #menuToggle a:nth-of-type(4):hover ~ .underbar {
+    left: 200px;
+    width: 112px;
+    background: #9e1a1a;
+  }
+}
+
+/*  Small desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/*  Big destops */
+@media only screen and (min-width: 1020px) {
+}
+@media (max-width: 629px) {
+  .mobile-hide {
+    display: none;
+  }
+  #about{
+  justify-items: self-end;  j
+   }
 }
