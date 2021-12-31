@@ -13,10 +13,8 @@ h2 {
 h3 {
   font-family: Raleway, sans-serif;
   font-size: 1em;
-  font-weight;;
 }
-header {
-}
+
 .green {
   background-color: #1c7207;
 }
@@ -35,7 +33,7 @@ header {
   width: 160px;
   margin-top: 1%;
   padding-bottom: 1%;
-  padding-right:1%;
+  padding-right: 1%;
   z-index: 1;
 }
 .navbar {
@@ -46,8 +44,8 @@ header {
   padding-bottom: 1%;
 }
 #about {
-  border-top: 15px solid #525252 ;
-  border-bottom: 15px solid #525252 ;
+  border-top: 15px solid #525252;
+  border-bottom: 15px solid #525252;
 }
 /* .nav__links {
   list-style: none;
@@ -189,7 +187,7 @@ button: hover {
   width: 80%;
   height: 100vh;
   margin: 0;
-    padding: 30px;
+  padding: 30px;
   padding-top: 80px;
   /* styles mobile menu */
   background: #1c7207;
@@ -222,10 +220,10 @@ footer {
   /* margin-left: 15px;
 	margin-right: 15px; */
   padding-top: 25px;
-  border-top: 15px solid #525252 ;
+  border-top: 15px solid #525252;
 }
 footer img {
-  padding-top:5%;
+  padding-top: 5%;
 }
 
 .container-fluid {
@@ -235,7 +233,6 @@ footer img {
 	margin-right: 0px;
 	margin-left: 15px; */
 }
-
 
 /* -------------------social links */
 .social-links {
@@ -277,7 +274,6 @@ table {
   margin-right: auto;
   margin-bottom: 1rem;
   background-color: #fff;
-  
 }
 table td {
   border-left: 1px solid #000;
@@ -296,7 +292,8 @@ td {
   vertical-align: top;
   background-color: #fff;
 }
-table h3, h2 {
+table h3,
+h2 {
   color: #000;
   background-color: #fff;
 }
@@ -403,7 +400,7 @@ table h3, h2 {
   .mobile-hide {
     display: none;
   }
-  #about{
-  justify-items: self-end;  j
-   }
+  #about {
+    justify-items: self-end;
+  }
 }
