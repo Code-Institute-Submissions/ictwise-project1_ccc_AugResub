@@ -24,6 +24,9 @@ h3 {
 .space-around {
   padding: 2%;
 }
+.float-left {
+  float: left;
+}
 .logo {
   position: absolute;
   top: 0;
@@ -43,6 +46,21 @@ h3 {
   margin-top: 1%;
   padding-bottom: 1%;
 }
+.child-one {
+  /* background-color: #1c7207; */
+  display: inline-block;
+  width: 50%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+.child-two {
+  cursor: pointer;
+  margin-right: auto;
+  width: 40%;
+  background-color: #fff;
+  float: right;
+}
+
 #about {
   border-top: 15px solid #525252;
   border-bottom: 15px solid #525252;
@@ -74,8 +92,6 @@ button {
 button: hover {
   background-color: rgba(0, 136, 169, 0.9);
 } */
-
-/* https://www.youtube.com/watch?v=PwWHL3RyQgk */
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
 
@@ -184,7 +200,7 @@ button: hover {
   top: 0;
   left: 0;
 
-  width: 80%;
+  width: 100%;
   height: 100vh;
   margin: 0;
   padding: 30px;
@@ -297,6 +313,9 @@ h2 {
   color: #000;
   background-color: #fff;
 }
+.table-img {
+  width: 90%;
+}
 
 /* hereo section */
 .hero {
@@ -362,6 +381,7 @@ h2 {
     height: 4px;
     background: rgba(100, 100, 200, 0);
     -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
   }
 
   #menuToggle a:nth-of-type(1):hover ~ .underbar {
