@@ -49,6 +49,8 @@ My first attempt at the index page recreated parts of both (code institute) site
 
 I researched many alternatives on the web, finally in codepen i found a navigation bar i wanted to adapt and use.  https://codepen.io/nicolettafbr/pen/KKNydVK*/
 
+to add the map in the joining section i took advantage of https://google-map-generator.com/
+
 
 ### Sprints:
 #### design 
