@@ -1,4 +1,56 @@
-# project1_ccc
+<!-- vscode-markdown-toc -->
+
+- 1. [Users stories](#Usersstories)
+     - 1.1. [Potential new club members](#Potentialnewclubmembers)
+     - 1.2. [Existing club members](#Existingclubmembers)
+     - 1.3. [General public](#Generalpublic)
+     - 1.4. [Public officials](#Publicofficials)
+- 2. [Design](#Design)
+- 3. [Technologies used](#Technologiesused)
+- 4. [Development Process](#DevelopmentProcess)
+  - 4.1. [Sprints:](#Sprints:)
+    - 4.1.1. [design](#design)
+    - 4.1.2. [create home page, test, retrospective](#createhomepagetestretrospective)
+    - 4.1.3. [build responsiveness](#buildresponsiveness)
+    - 4.1.4. [create other pages](#createotherpages)
+    - 4.1.5. [build contact us](#buildcontactus)
+- 5. [Table of contents:](#Tableofcontents:)
+- 6. [**Planning stage**](#Planningstage)
+  - 6.1. [**Target Audiences:**](#TargetAudiences:)
+    - 6.1.1. [Potential new club members](#Potentialnewclubmembers-1)
+    - 6.1.2. [Existing club members](#Existingclubmembers-1)
+    - 6.1.3. [General public](#Generalpublic-1)
+    - 6.1.4. [Public officials](#Publicofficials-1)
+  - 6.2. [**User Stories:**](#UserStories:)
+  - 6.3. [**Site Aims:**](#SiteAims:)
+  - 6.4. [**How Is This Will Be Achieved:**](#HowIsThisWillBeAchieved:)
+  - 6.5. [**Wireframes:**](#Wireframes:)
+  - 6.6. [**Color Scheme:**](#ColorScheme:)
+- 7. [**Current Features Common to all pages**](#CurrentFeaturesCommontoallpages)
+  - 7.1. [**Header Element**](#HeaderElement)
+    - 7.1.1. [_Logo:_](#Logo:_)
+    - 7.1.2. [_Navigation Bar:_](#NavigationBar:_)
+  - 7.2. [**Hero Images**](#HeroImages)
+- 8. [**Footer**](#Footer)
+- 9. [**Typography**](#Typography)
+- 10. [**Individual Page Content features**](#IndividualPageContentfeatures)
+  - 10.1. [**Home/About Page Content:**](#HomeAboutPageContent:)
+  - 10.2. [**Ride Page Content:**](#RidePageContent:)
+  - 10.3. [**Join Page Content:**](#JoinPageContent:)
+  - 10.4. [**Contact Page Content**](#ContactPageContent)
+- 11. [**Future-Enhancements**](#Future-Enhancements)
+- 12. [**Testing Phase**](#TestingPhase)
+- 13. [**Deployment**](#Deployment)
+- 14. [**Credits**](#Credits)
+  - 14.1. [**General reference:**](#Generalreference:)
+  - 14.2. [**Content:**](#Content:)
+  - 14.3. [**Media:**](#Media:)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc --># project1_ccc
 
 # Caerphilly Cycling Club
 
@@ -15,25 +67,25 @@ A live demo of this project can be found [here](https://ictwise.github.io/projec
 
 # UX
 
-## Users stories
+## 1. <a name='Usersstories'></a>Users stories
 
-#### Potential new club members
+#### 1.1. <a name='Potentialnewclubmembers'></a>Potential new club members
 
 Need to find out about the club - rides, how to prepare for a ride, how to join the club, what kind of riders already belong to the club.
 
-#### Existing club members
+#### 1.2. <a name='Existingclubmembers'></a>Existing club members
 
 May need to check club rules. See information on club rides. See recent photos. Foster a sense of pride in the club.
 
-#### General public
+#### 1.3. <a name='Generalpublic'></a>General public
 
 May want to contact the club to make complaints about club members road use.
 
-#### Public officials
+#### 1.4. <a name='Publicofficials'></a>Public officials
 
 Ask for advice from the club members and committee about policy decisions.
 
-## Design
+## 2. <a name='Design'></a>Design
 
 The club logo and club colours were already set. The culb is often refered to as 'the Green Machine' therfore green and an accent red would always be the colours. To reflect the vibrant nature of the club I wanted to include some animation, video images generally the feeling of movement. The issue with responsiveness had to be addressed, the top navigation bar did not collapse on mobiles and took up most of the real estate on a mobile screen. It was important the new design resolved this.
 
@@ -41,7 +93,7 @@ The club logo and club colours were already set. The culb is often refered to as
 
 I created a wireframe for mobile, tablet and desktop. This helped me understand the structure of the site I was creating and focus for the initial design.
 
-## Technologies used
+## 3. <a name='Technologiesused'></a>Technologies used
 
 1. HTML5
 2. CSS
@@ -49,36 +101,36 @@ I created a wireframe for mobile, tablet and desktop. This helped me understand 
 
 Pages were built and staged in Visual Studio Code before being commited to Github.
 
-## Development Process
+## 4. <a name='DevelopmentProcess'></a>Development Process
 
 Mobile first. Grid system/bootstrap. Visual Studio Code. Correct semantics. This was my primary objective.
 I looked at this as an opportunity to practicve my skills specifically those learnt while creating the Code institute 'Love running' site and the Bootstrap resume example.
 
 My first attempt at the index page recreated parts of both (code institute) sites adapting them to new website needs. On creation of the index.html and after discussions with my mentor I was disatisfied with the result. The page was responsive as bootstrap was used for the navigation bar and the footer but the design was - gaudy. I also felt that I had not gained enough practices using HTML and CSS. I wanted a simpler more elegant interface and practice with the DOM for positioning, and understanding margins, borders and padding. I had also many snippets from CSS I'd been trying out. My code was far from beautiful! I was pleased with the footer. Built using Bootstrap the Social media section worked perfectly but the navigation bar although working well, very responsive just looked too bright. Red and green in the shades the club use are intended for cars to see you clearly on the road, on a website they can look very busy.
 
-I researched many alternatives on the web, finally in codepen i found a navigation bar i wanted to adapt and use. https://codepen.io/nicolettafbr/pen/KKNydVK*/
+I researched many alternatives on the web, finally in codepen i found a navigation bar i wanted to adapt and use. <https://codepen.io/nicolettafbr/pen/KKNydVK*/>
 
-to add the map in the joining section i took advantage of https://google-map-generator.com/
+to add the map in the joining section i took advantage of <https://google-map-generator.com/>
 
-### Sprints:
+### 4.1. <a name='Sprints:'></a>Sprints
 
-#### design
+#### 4.1.1. <a name='design'></a>design
 
 Define strategy, build wireframes, finalise fonts/colour schemes/images
 
-#### create home page, test, retrospective
+#### 4.1.2. <a name='createhomepagetestretrospective'></a>create home page, test, retrospective
 
 Check for look and feel
 
-#### build responsiveness
+#### 4.1.3. <a name='buildresponsiveness'></a>build responsiveness
 
 test at different resolutions.
 
-#### create other pages
+#### 4.1.4. <a name='createotherpages'></a>create other pages
 
 duplicate Header and footer of index, build other pages, test
 
-#### build contact us
+#### 4.1.5. <a name='buildcontactus'></a>build contact us
 
 Build form
 Test entire site at various resolutions and using online testing tools
@@ -88,72 +140,29 @@ Test entire site at various resolutions and using online testing tools
 A live demo of this project can be found [here](https://ictwise.github.io/project1_ccc/).
 ![Desktop Demo](https://www.caerphillycc.co.uk/wp-content/uploads/2021/05/CCC-Castle-Path-1010x300.jpg "Desktop Demo")
 
-## Table of contents:
+## 5. <a name='Tableofcontents:'></a>Table of contents
 
-1. [**Site Overview**](#site-overview)
-1. [**Planning stage**](#planning-stage)
-   - [**_Target Audiences_**](#target-audiences)
-   - [**_User Stories_**](#user-stories)
-   - [**_Site Aims_**](#site-aims)
-   - [**_How Is This Will Be Achieved:_**](#how-is-this-will-be-achieved)
-   - [**_Wireframes_**](#wireframes)
-   - [**_Color Scheme_**](#color-scheme)
-1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-   - [**_Header Element:_**](#header-element)
-     - [_Logo_](#logos)
-     - [_Navigation Bar_](#navigation-bar)
-   - [**Hero Images:**](#hero-images)
-     - [**_About Page_**:](#about-page)
-       - [_Hero-Image_](#hero-image)
-       - [_Quote_](#quote)
-     - [**_Teachings page_**:](#teachings-page)
-       - [_Hero-Image_](#hero-image-1)
-       - [_Quote_](#quote-1)
-     - [**_Community page:_**](#community-page)
-       - [_Hero-Image_](#hero-image-2)
-       - [_Quote_](#quote-2)
-     - [**_Contact and Form-Feedback pages:_**](#contact-and-form-feedback-pages)
-       - [_Hero-Image_](#hero-image-3)
-       - [_Quote_](#quote-3)
-   - [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
-   - [**Footer**](#footer)
-   - [**Typography**](#typography)
-1. [**Individual Page Content features**](#individual-page-content-features)
-   - [**About Page Content**](#about-page-content)
-   - [**Teachings Page Content**](#teachings-page-content)
-   - [**Community Page Content**](#community-page-content)
-   - [**Contact Page Content**](#contact-page-content)
-   - [**Form Feedback Page Content**](#form-feedback-page-content)
-1. [**Future-Enhancements**](#future-enhancements)
-1. [**Testing Phase**](#testing-phase)
-1. [**Deployment**](#deployment)
-1. [**Credits**](#credits)
-   - [**Honorable mentions**](#honorable-mentions)
-   - [**General reference**](#general-reference)
-   - [**Content**](#content)
-   - [**Media**](#media)
+## 6. <a name='Planningstage'></a>**Planning stage**
 
-## **Planning stage**
+### 6.1. <a name='TargetAudiences:'></a>**Target Audiences:**
 
-### **Target Audiences:**
-
-#### Potential new club members
+#### 6.1.1. <a name='Potentialnewclubmembers-1'></a>Potential new club members
 
 Need to find out about the club - rides, how to prepare for a ride, how to join the club, what kind of riders already belong to the club.
 
-#### Existing club members
+#### 6.1.2. <a name='Existingclubmembers-1'></a>Existing club members
 
 May need to check club rules. See information on club rides. See recent photos. Foster a sense of pride in the club.
 
-#### General public
+#### 6.1.3. <a name='Generalpublic-1'></a>General public
 
 May want to contact the club to make complaints about club members road use.
 
-#### Public officials
+#### 6.1.4. <a name='Publicofficials-1'></a>Public officials
 
 Ask for advice from the club members and committee about policy decisions.
 
-### **User Stories:**
+### 6.2. <a name='UserStories:'></a>**User Stories:**
 
 - As a user, I want to find information on the club.
 - As a user, I want to navigate the page to find what I require quickly and easily.
@@ -161,7 +170,7 @@ Ask for advice from the club members and committee about policy decisions.
 - As a user, I was to find ride times and locations.
 - As a user, I want to understand what is required of riders on a club ride.
 
-### **Site Aims:**
+### 6.3. <a name='SiteAims:'></a>**Site Aims:**
 
 - To inform users about CCC.
 - To educate the user on basic ride etiquette.
@@ -169,11 +178,11 @@ Ask for advice from the club members and committee about policy decisions.
 - Provide the user with the information on club rides.
 - Provide a method by which the user can subscribe to a newsletter.
 
-### **How Is This Will Be Achieved:**
+### 6.4. <a name='HowIsThisWillBeAchieved:'></a>**How Is This Will Be Achieved:**
 
 - The home page provides the user with a summary of the club. There is a rides page that gives details of ride time, ride etiquette and links to ride advice. The contacts page has a contact form and a checkbox to sign up for the newsletter.
 
-### **Wireframes:**
+### 6.5. <a name='Wireframes:'></a>**Wireframes:**
 
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions of the four intended pages.
 
@@ -181,56 +190,56 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 There was some deviation from the original wireframes to improve the User Experience (UX). Such variations include: -
 
-### **Color Scheme:**
+### 6.6. <a name='ColorScheme:'></a>**Color Scheme:**
 
 The club logo and club colours were already set. The culb is often refered to as 'the Green Machine' therfore green and an accent red would always be the colours.
 
-## **Current Features Common to all pages**
+## 7. <a name='CurrentFeaturesCommontoallpages'></a>**Current Features Common to all pages**
 
-### **Header Element**
+### 7.1. <a name='HeaderElement'></a>**Header Element**
 
 The header element is sticky adhering to popular conventions, as the user scrolls the header remains at the top of the page. The header contains the following features:
 
-#### _Logo:_
+#### 7.1.1. <a name='Logo:_'></a>_Logo:_
 
 - The logo has the club name embedded into it. I considered adding a title in this area but decided to keep it clean. Also as the site is mobile first just logo and navigation bar works very well.
 
-#### _Navigation Bar:_
+#### 7.1.2. <a name='NavigationBar:_'></a>_Navigation Bar:_
 
 - The navigation bar appears on all pages.
 - It contains links to the home, ride, Join, and contact page to allow easy navigation around the website.
 - There is a hover effect for each link which changes the colour and an animated bar pops out.
-  _The main reason I chose this design for the navigation bar was that for mobiles the nav bar collapses to a menu button, when clicked a vertical menu swipes out and the hamburger menu animates into a cross. The menu closes whenever a link or cross is selected. I adapted the code for the navbar from https://codepen.io/nicolettafbr/pen/KKNydVK_/ . Another reason why I was drawn to this code is that it was HTML and CSS only, which fitted in with my objective of practicing the skills.
+  _The main reason I chose this design for the navigation bar was that for mobiles the nav bar collapses to a menu button, when clicked a vertical menu swipes out and the hamburger menu animates into a cross. The menu closes whenever a link or cross is selected. I adapted the code for the navbar from <https://codepen.io/nicolettafbr/pen/KKNydVK>_/ . Another reason why I was drawn to this code is that it was HTML and CSS only, which fitted in with my objective of practicing the skills.
 
 ---
 
-### **Hero Images**
+### 7.2. <a name='HeroImages'></a>**Hero Images**
 
 - I have included a hero image only on the index page, this was a design decision to maximise screen real estate for mobiles .
 - The hero image has an animation to grab the attention of the user.
 
-## **Footer**
+## 8. <a name='Footer'></a>**Footer**
 
 - The footer includes direct links to all the CCC social media accounts I adapted this from the Code Institute lesson ‘Mini Project with Bootstrap 4’. It is responsive and I felt fitted with the design while giving me chance to practice Bootstrap.
 
 - These icons were imported from font awesome.
 
-## **Typography**
+## 9. <a name='Typography'></a>**Typography**
 
 - Throughout the page, there are two fonts used:
   - Raleway and Open-sans
 
-## **Individual Page Content features**
+## 10. <a name='IndividualPageContentfeatures'></a>**Individual Page Content features**
 
-### **Home/About Page Content:**
+### 10.1. <a name='HomeAboutPageContent:'></a>**Home/About Page Content:**
 
-### **Ride Page Content:**
+### 10.2. <a name='RidePageContent:'></a>**Ride Page Content:**
 
-### **Join Page Content:**
+### 10.3. <a name='JoinPageContent:'></a>**Join Page Content:**
 
 \*xxxxxxxx
 
-### **Contact Page Content**
+### 10.4. <a name='ContactPageContent'></a>**Contact Page Content**
 
 - The user is offered a way to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
 - Form used has three required fields.
@@ -241,7 +250,7 @@ The header element is sticky adhering to popular conventions, as the user scroll
 
 _Note: This form doesn't gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only._
 
-## **Future-Enhancements**
+## 11. <a name='Future-Enhancements'></a>**Future-Enhancements**
 
 \*There are many future enhancements I would make if this were a long term project. They include:
 • A members only section with chat room, small ads, upcoming rides, club routes and club kit store.
@@ -250,13 +259,13 @@ _Note: This form doesn't gather any data; it was created with a GET request to c
 
 ---
 
-## **Testing Phase**
+## 12. <a name='TestingPhase'></a>**Testing Phase**
 
 I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
 
 ---
 
-## **Deployment**
+## 13. <a name='Deployment'></a>**Deployment**
 
 I deployed the page on GitHub pages via the following procedure: -
 
@@ -269,22 +278,22 @@ You can find the live site via the following URL -
 
 ---
 
-## **Credits**
+## 14. <a name='Credits'></a>**Credits**
 
-https://codepen.io/nicolettafbr/pen/KKNydVK*/ for the NavBar.
+<https://codepen.io/nicolettafbr/pen/KKNydVK*/> for the NavBar.
 The Code Institute – Love Running and Resume.
-https://www.youtube.com/watch?v=r4RQ38EoLds&t contact form.
-https://github.com/dnlbowers/modern-buddhism and others on github for ideas on completing the read.me
+<https://www.youtube.com/watch?v=r4RQ38EoLds&t> contact form.
+<https://github.com/dnlbowers/modern-buddhism> and others on github for ideas on completing the read.me
 
-### **General reference:**
+### 14.1. <a name='Generalreference:'></a>**General reference:**
 
 - I relied upon W3schools, git hub, slack, youtube and stack overflow for general references throughout the project.
 
-### **Content:**
+### 14.2. <a name='Content:'></a>**Content:**
 
 - Most of the content was provided by CCC.
 - All fonts imported from - [Google Fonts](https://fonts.google.com/)
 
-### **Media:**
+### 14.3. <a name='Media:'></a>**Media:**
 
 - images provided by CCC
