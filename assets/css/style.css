@@ -9,6 +9,7 @@
 h2 {
   font-family: Raleway, sans-serif;
   font-size: 1.2em;
+  font-weight: bold;
 }
 h3 {
   font-family: Raleway, sans-serif;
@@ -48,17 +49,20 @@ h3 {
 }
 .child-one {
   /* background-color: #1c7207; */
-  display: inline-block;
-  width: 50%;
+  /* display: block; */
+  position: static;
+  width: 100%;
   margin-top: 1%;
   padding-bottom: 1%;
 }
 .child-two {
-  cursor: pointer;
-  margin-right: auto;
-  width: 40%;
-  background-color: #fff;
-  float: right;
+  /* display: block; */
+
+  width: 100%;
+}
+
+.customIndent {
+  padding-left: 1.5em;
 }
 
 #about {
@@ -448,6 +452,21 @@ input[type="submit"]:hover {
 
 /*  Small desktops */
 @media only screen and (min-width: 992px) {
+}
+
+/* alter text width for larger screens */
+.child-one {
+  /* background-color: #1c7207; */
+  display: inline-block;
+  width: 50%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+.child-two {
+  margin-right: auto;
+  width: 20%;
+  background-color: #fff;
+  float: right;
 }
 
 /*  Big destops */
