@@ -1,6 +1,6 @@
 <!-- vscode-markdown-toc -->
 
-- 1. [Users stories](#Usersstories)
+- 1. [Static responsive website - Stream 1 Project.](#Staticresponsivewebsite-Stream1Project.)
      - 1.1. [Potential new club members](#Potentialnewclubmembers)
      - 1.2. [Existing club members](#Existingclubmembers)
      - 1.3. [General public](#Generalpublic)
@@ -8,13 +8,13 @@
 - 2. [Design](#Design)
 - 3. [Technologies used](#Technologiesused)
 - 4. [Development Process](#DevelopmentProcess)
-  - 4.1. [Sprints:](#Sprints:)
+  - 4.1. [Sprints](#Sprints)
     - 4.1.1. [design](#design)
     - 4.1.2. [create home page, test, retrospective](#createhomepagetestretrospective)
     - 4.1.3. [build responsiveness](#buildresponsiveness)
     - 4.1.4. [create other pages](#createotherpages)
     - 4.1.5. [build contact us](#buildcontactus)
-- 5. [Table of contents:](#Tableofcontents:)
+- 5. [Table of contents](#Tableofcontents)
 - 6. [**Planning stage**](#Planningstage)
   - 6.1. [**Target Audiences:**](#TargetAudiences:)
     - 6.1.1. [Potential new club members](#Potentialnewclubmembers-1)
@@ -50,11 +50,9 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># project1_ccc
+<!-- /vscode-markdown-toc -->
 
-# Caerphilly Cycling Club
-
-Static responsive website - Stream 1 Project.
+## 1. <a name='Staticresponsivewebsite-Stream1Project.'></a>Static responsive website - Stream 1 Project.
 
 I'm a member of Caerphilly Cycling Club. We have a serviceable website, it's static, has not been changed in more than 5 years but generally the content is good. The main failing of the site is that it is not responsive. A sample survey of current members showed that during the last 5 years most users have moved from desktop to mobile devices to view the site.
 
@@ -67,25 +65,27 @@ A live demo of this project can be found [here](https://ictwise.github.io/projec
 
 # UX
 
-## 1. <a name='Usersstories'></a>Users stories
+<!-- ## 1. <a name='Usersstories'>
 
-#### 1.1. <a name='Potentialnewclubmembers'></a>Potential new club members
+</a>Users stories
+
+####  1.1. <a name='Potentialnewclubmembers'></a>Potential new club members
 
 Need to find out about the club - rides, how to prepare for a ride, how to join the club, what kind of riders already belong to the club.
 
-#### 1.2. <a name='Existingclubmembers'></a>Existing club members
+####  1.2. <a name='Existingclubmembers'></a>Existing club members
 
 May need to check club rules. See information on club rides. See recent photos. Foster a sense of pride in the club.
 
-#### 1.3. <a name='Generalpublic'></a>General public
+####  1.3. <a name='Generalpublic'></a>General public
 
 May want to contact the club to make complaints about club members road use.
 
-#### 1.4. <a name='Publicofficials'></a>Public officials
+####  1.4. <a name='Publicofficials'></a>Public officials
 
-Ask for advice from the club members and committee about policy decisions.
+Ask for advice from the club members and committee about policy decisions. -->
 
-## 2. <a name='Design'></a>Design
+## 1. <a name='Design'></a>Design
 
 The club logo and club colours were already set. The culb is often refered to as 'the Green Machine' therfore green and an accent red would always be the colours. To reflect the vibrant nature of the club I wanted to include some animation, video images generally the feeling of movement. The issue with responsiveness had to be addressed, the top navigation bar did not collapse on mobiles and took up most of the real estate on a mobile screen. It was important the new design resolved this.
 
@@ -93,7 +93,7 @@ The club logo and club colours were already set. The culb is often refered to as
 
 I created a wireframe for mobile, tablet and desktop. This helped me understand the structure of the site I was creating and focus for the initial design.
 
-## 3. <a name='Technologiesused'></a>Technologies used
+## 2. <a name='Technologiesused'></a>Technologies used
 
 1. HTML5
 2. CSS
@@ -101,7 +101,7 @@ I created a wireframe for mobile, tablet and desktop. This helped me understand 
 
 Pages were built and staged in Visual Studio Code before being commited to Github.
 
-## 4. <a name='DevelopmentProcess'></a>Development Process
+## 3. <a name='DevelopmentProcess'></a>Development Process
 
 Mobile first. Grid system/bootstrap. Visual Studio Code. Correct semantics. This was my primary objective.
 I looked at this as an opportunity to practicve my skills specifically those learnt while creating the Code institute 'Love running' site and the Bootstrap resume example.
@@ -112,17 +112,17 @@ I researched many alternatives on the web, finally in codepen i found a navigati
 
 to add the map in the joining section i took advantage of <https://google-map-generator.com/>
 
-### 4.1. <a name='Sprints:'></a>Sprints
+### 3.1. <a name='Sprints'></a>Sprints
 
-#### 4.1.1. <a name='design'></a>design
+#### 3.1.1. <a name='design'></a>design
 
 Define strategy, build wireframes, finalise fonts/colour schemes/images
 
-#### 4.1.2. <a name='createhomepagetestretrospective'></a>create home page, test, retrospective
+#### 3.1.2. <a name='createhomepagetestretrospective'></a>create home page, test, retrospective
 
 Check for look and feel
 
-#### 4.1.3. <a name='buildresponsiveness'></a>build responsiveness
+#### 3.1.3. <a name='buildresponsiveness'></a>build responsiveness
 
 test at different resolutions.
 
@@ -134,13 +134,6 @@ duplicate Header and footer of index, build other pages, test
 
 Build form
 Test entire site at various resolutions and using online testing tools
-
-# Demo
-
-A live demo of this project can be found [here](https://ictwise.github.io/project1_ccc/).
-![Desktop Demo](https://www.caerphillycc.co.uk/wp-content/uploads/2021/05/CCC-Castle-Path-1010x300.jpg "Desktop Demo")
-
-## 5. <a name='Tableofcontents:'></a>Table of contents
 
 ## 6. <a name='Planningstage'></a>**Planning stage**
 
@@ -182,7 +175,7 @@ Ask for advice from the club members and committee about policy decisions.
 
 - The home page provides the user with a summary of the club. There is a rides page that gives details of ride time, ride etiquette and links to ride advice. The contacts page has a contact form and a checkbox to sign up for the newsletter.
 
-### 6.5. <a name='Wireframes:'></a>**Wireframes:**
+## <a name='Wireframes:'></a>**Wireframes:**
 
 To organize my thoughts and prevent scope creep, I created wireframes for this project. Below are links to each of the mobile and desktop versions of the four intended pages.
 
@@ -190,7 +183,7 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 
 There was some deviation from the original wireframes to improve the User Experience (UX). Such variations include: -
 
-### 6.6. <a name='ColorScheme:'></a>**Color Scheme:**
+## <a name='ColorScheme:'></a>**Color Scheme:**
 
 The club logo and club colours were already set. The culb is often refered to as 'the Green Machine' therfore green and an accent red would always be the colours.
 
@@ -220,7 +213,7 @@ The header element is sticky adhering to popular conventions, as the user scroll
 
 ## 8. <a name='Footer'></a>**Footer**
 
-- The footer includes direct links to all the CCC social media accounts I adapted this from the Code Institute lesson ‘Mini Project with Bootstrap 4’. It is responsive and I felt fitted with the design while giving me chance to practice Bootstrap.
+- The footer appears on all pages and includes direct links to all the CCC social media accounts I adapted this from the Code Institute lesson ‘Mini Project with Bootstrap 4’. It is responsive and I felt fitted with the design while giving me chance to practice Bootstrap.
 
 - These icons were imported from font awesome.
 
@@ -233,11 +226,13 @@ The header element is sticky adhering to popular conventions, as the user scroll
 
 ### 10.1. <a name='HomeAboutPageContent:'></a>**Home/About Page Content:**
 
+- A hero image with a brief introduction to the club. There is a table showing the days and times of the main club rides.
+
 ### 10.2. <a name='RidePageContent:'></a>**Ride Page Content:**
 
-### 10.3. <a name='JoinPageContent:'></a>**Join Page Content:**
+- An introduction to the club rides, ride days and times repeated with more information. A description of the types of rides with distance and speed expectations. A map showing the starting point of all rides.
 
-\*xxxxxxxx
+### 10.3. <a name='JoinPageContent:'></a>**Join Page Content:**
 
 ### 10.4. <a name='ContactPageContent'></a>**Contact Page Content**
 
