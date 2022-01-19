@@ -274,6 +274,24 @@ Testing using Chrome developer and vs code studio was done at each stage of deve
 
 I used browserstack.com to check how the site looked on the most popular mobile devices.
 
+and ami.responsiv.is
+![responsive screenshot](assets\images\responsive.png)
+
+the css I ran through http://csslint.net/ no errors were identified.
+
+Parts of my code were tested on codepen.
+I used the vs studio code extention Prettier to check and fix my code.
+
+### Coding errors
+
+I fixed many coding errors 2 main problems i had -
+
+- on the contact page there was a shudder when i hovered over the hoverbar, this did not happen on any other page, I deduced it was the form on the page, removing the space-around class from the div fixed this.
+
+- positioning elements on the page, mostly I fixed these using Chrome Developer Tools
+
+I ran my html through http://pep8online.com/
+
 ---
 
 ## 14. <a name='Deployment'></a>**Deployment**
