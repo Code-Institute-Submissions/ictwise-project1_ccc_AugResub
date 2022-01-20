@@ -483,15 +483,4 @@ input[type="submit"]:hover {
   #about {
     justify-items: self-end;
   }
-  footer {
-    /* background-color: #525252; */
-    color: #fafafa;
-
-    margin-left: 25px;
-    margin-right: 25px;
-    border-top: 15px solid #525252;
-  }
-  footer img {
-    padding-top: 5%;
-  }
 }
