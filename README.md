@@ -268,7 +268,11 @@ Parts of my code were tested on codepen.
 I used the vs studio code extension Prettier to check and fix my code format.
 
 I used
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%2F to check my code.
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%2F
+and
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+to check my code.
 
 I ran my html through http://pep8online.com/
 
