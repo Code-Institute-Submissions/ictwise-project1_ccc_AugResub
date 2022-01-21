@@ -250,7 +250,7 @@ There are many future enhancements I would make if this were a long-term project
 - A member only section with chat room, small ads, upcoming rides, club routes and club kit store.
 - All images need to be optimised for the web.
 
-- I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
+- I would also make the contact form fully function with a post request and have a database to collate data for the mailing list. The current solution is purely for development and an alternative to a dummy form that doesn't send the data out.
 
 ---
 
@@ -260,7 +260,7 @@ Tests using Chrome developer and vs code studio was done at each stage of develo
 
 I used browserstack.com to check how the site looked on the most popular mobile devices and ami.responsiv.is
 
-![responsive screenshot](assets\images\responsive.png)
+![responsive screenshot](assets/images/responsive.png)
 
 the css I ran through http://csslint.net/ no errors were identified.
 
@@ -272,7 +272,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%
 
 I ran my html through http://pep8online.com/
 
-My criteria for error checking and the results are listed [here ](assets\doc\test-cases.xlsx)
+My criteria for error checking and the results are listed [here ](assets/doc/test-cases.xlsx)
 
 ## 13. <a name='OpenandClosedIssues'></a> Open and Closed Issues
 
