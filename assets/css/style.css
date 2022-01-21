@@ -73,33 +73,6 @@ h3 {
   border-top: 15px solid #525252;
   border-bottom: 15px solid #525252;
 }
-/* .nav__links {
-  list-style: none;
-}
-
-.nav__links li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav__links li a {
-  transition: all 0.3s ease 0s;
-}
-.nav__links li a:hover {
-  color: grey;
-}
-button {
-  padding: 9px 25px;
-  background-color: rgba(17, 64, 80, 0);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  margin-left: 20px;
-}
-button: hover {
-  background-color: rgba(0, 136, 169, 0.9);
-} */
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
 
@@ -307,6 +280,7 @@ table th {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
+  width: 33.3%;
 }
 th,
 td {
@@ -375,13 +349,6 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-/* .section-heading {
-  font-family: Raleway, open-sans;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  overflow: hidden;
-} */
 /* Media queries for a seamless user experience.
 ** Tablets
 */
@@ -410,51 +377,9 @@ input[type="submit"]:hover {
     background-color: #1c7207;
   }
   /* 
-  #menuToggle a {
-    color: #232323;
-  } */
 
-  /* #menuToggle a {
-    color: #232323;
-  } */
 
-  .underbar {
-    position: absolute;
-    top: 45px;
-    left: -10px;
-
-    width: 0;
-    height: 4px;
-    background: rgba(100, 100, 200, 0);
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
-
-  #menuToggle li:nth-of-type(1):hover ~ .underbar {
-    left: 28px;
-    width: 48px;
-    background: #ff0000;
-  }
-
-  #menuToggle li:nth-of-type(2):hover ~ .underbar {
-    left: 100px;
-    width: 48px;
-    background: #8e1600;
-  }
-
-  #menuToggle li:nth-of-type(3):hover ~ .underbar {
-    left: 150px;
-    width: 68px;
-    background: #b53737;
-  }
-
-  #menuToggle li:nth-of-type(4):hover ~ .underbar {
-    left: 200px;
-    width: 112px;
-    background: #9e1a1a;
-  }
-}
-
+ 
 /*  Small desktops */
 @media only screen and (min-width: 992px) {
 }

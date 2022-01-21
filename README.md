@@ -71,7 +71,7 @@ The club logo and club colours were already set. The club is often referred to a
 
 ![image](https://user-images.githubusercontent.com/57628753/146191222-f71e8819-320d-4c06-a901-f10eb82550e3.png)
 
-I created a wireframe for mobile, tablet and desktop. This helped me understand the structure of the site I was creating and focus for the initial design.
+I created a [wireframe](assets\doc\wireframe.bmpr) for mobile, tablet and desktop. This helped me understand the structure of the site I was creating and focus for the initial design.
 
 ### 1.1. <a name='ChangestotheOriginaldesign'></a>Changes to the Original design
 
@@ -88,6 +88,7 @@ I researched many alternatives on the web, finally in codepen I found a navigati
 3. Boostrap 4
 4. VS code
 5. GitHub
+6. Git
 
 ---
 
@@ -168,7 +169,7 @@ To organize my thoughts and prevent scope creep, I created wireframes for this p
 - Wireframes:
 
 There was some deviation from the original wireframes to improve the User Experience (UX).
-[link to the wireframe file.](wireframe.bmpr)
+[link to the wireframe file.](assets\doc\wireframe.bmpr)
 
 ## 6. <a name='ColorScheme:'></a>**Color Scheme:**
 
@@ -255,27 +256,35 @@ There are many future enhancements I would make if this were a long-term project
 
 ## 12. <a name='TestingPhase'></a>**Testing Phase**
 
-Testing using Chrome developer and vs code studio was done at each stage of development.
+Tests using Chrome developer and vs code studio was done at each stage of development.
 
-I used browserstack.com to check how the site looked on the most popular mobile devices.
+I used browserstack.com to check how the site looked on the most popular mobile devices and ami.responsiv.is
 
-and ami.responsiv.is
 ![responsive screenshot](assets\images\responsive.png)
 
 the css I ran through http://csslint.net/ no errors were identified.
 
 Parts of my code were tested on codepen.
-I used the vs studio code extension Prettier to check and fix my code.
+I used the vs studio code extension Prettier to check and fix my code format.
+
+I used
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%2F to check my code.
+
+I ran my html through http://pep8online.com/
+
+My criteria for error checking and the results are listed [here ](assets\doc\test-cases.xlsx)
 
 ## 13. <a name='OpenandClosedIssues'></a> Open and Closed Issues
 
-I fixed many coding errors two main problems I had -
+I fixed many coding errors some problems I had -
 
 - on the contact page there was a shudder when I hovered over the hoverbar, this did not happen on any other page, I deduced it was the form on the page, removing the space-around class from the div fixed this.
 
 - positioning elements on the page, mostly I fixed these using Chrome Developer Tools
 
-I ran my html through http://pep8online.com/
+- I was disatisfied with the appearance of the first navigation bar I created with bootstrap. I replaced this with an example I adapted from codepen, not realising the code I was using had errors because the output appeared to be good. When running my pages through the w3 validator I found the errors, with the assistance of my mentor I found the fix and then implemented - lesson learnt, when adapting code check the validity of the original first.
+
+Other issues I am aware of but because of time constraints I have not dealt with - although prettier has done a reasonable job of formatting my code I think I could clean it up further.
 
 ---
 
