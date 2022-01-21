@@ -381,32 +381,33 @@ input[type="submit"]:hover {
 
  
 /*  Small desktops */
-@media only screen and (min-width: 992px) {
-}
-
-/* alter text width for larger screens */
-.child-one {
-  /* background-color: #1c7207; */
-  display: inline-block;
-  width: 50%;
-  margin-top: 1%;
-  padding-bottom: 1%;
-}
-.child-two {
-  margin-right: auto;
-  width: 20%;
-  background-color: #fff;
-  float: right;
-}
-
-/*  Big destops */
-@media only screen and (min-width: 1020px) {
-}
-@media (max-width: 629px) {
-  .mobile-hide {
-    display: none;
+  @media only screen and (min-width: 992px) {
   }
-  #about {
-    justify-items: self-end;
+
+  /* alter text width for larger screens */
+  .child-one {
+    /* background-color: #1c7207; */
+    display: inline-block;
+    width: 50%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+  }
+  .child-two {
+    margin-right: auto;
+    width: 20%;
+    background-color: #fff;
+    float: right;
+  }
+
+  /*  Big destops */
+  @media only screen and (min-width: 1020px) {
+  }
+  @media (max-width: 629px) {
+    .mobile-hide {
+      display: none;
+    }
+    #about {
+      justify-items: self-end;
+    }
   }
 }
