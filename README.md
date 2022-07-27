@@ -310,7 +310,7 @@ I deployed the page on GitHub pages via the following procedure: -
 - <https://codepen.io/nicolettafbr/pen/KKNydVK*/> for the NavBar.
   The Code Institute – Love Running and Resume.<br>
 - <https://www.youtube.com/watch?v=r4RQ38EoLds&t> contact form.
-- <https://github.com/dnlbowers/modern-buddhism> and others on GitHub for ideas on completing the read.me
+- <https://github.com/dnlbowers/modern-buddhism> and others on GitHub for ideas on completing the readme
 - <https://google-map-generator.com/> was used to create the map on the joining page.
 
 ### 15.1. <a name='Generalreference:'></a>**General reference:**
