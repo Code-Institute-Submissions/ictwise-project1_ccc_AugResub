@@ -33,45 +33,41 @@ h3 {
   align-items: flex-end;
 }
 .logo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-  margin-right: auto;
-  width: 160px;
+  width: 20vw;
   margin-top: 1%;
   padding-bottom: 1%;
   padding-right: 1%;
   z-index: 2;
 }
+.btn {
+  font-size: 0.8rem;
+}
 .navbar {
-  /* background-color: #1c7207; */
   display: inline-block;
-  width: 60%;
+  width: 60vw;
   margin-top: 1%;
   padding-bottom: 1%;
 }
-.child-one {
-  /* background-color: #1c7207; */
-  /* display: block; */
+/* /* .child-one {
+
   position: static;
-  width: 100%;
+  width: 100vw;
   margin-top: 1%;
   padding-bottom: 1%;
 }
 .child-two {
-  /* display: block; */
-
-  width: 100%;
+   width: 100vw;
 }
 
 .customIndent {
   padding-left: 1.5em;
-}
+} */
 
 #about {
   border-top: 15px solid #525252;
   border-bottom: 15px solid #525252;
+  padding: 8px;
+  width: 100vw;
 }
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
@@ -138,6 +134,7 @@ h3 {
   /* button colour */
   background: #fff;
   border-radius: 3px;
+  font-weight: bold;
 
   z-index: 1;
 
@@ -180,8 +177,7 @@ h3 {
   position: fixed;
   top: 0;
   left: 0;
-
-  width: 100%;
+  width: 50vw;
   height: 100vh;
   margin: 0;
   padding: 26px;
@@ -207,7 +203,16 @@ h3 {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+/* call to action button */
 
+#action {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  margin: 0;
+}
 /* ----------------------------------------Footer */
 
 footer {
@@ -223,7 +228,7 @@ footer img {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 100vw;
   /* padding-right: 31px;
 	padding-left: 15px;
 	margin-right: 0px;
@@ -264,7 +269,7 @@ footer img {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: auto;
+  width: 100vw;
   border: 0px solid #ddd;
   margin-left: auto;
   margin-right: auto;
@@ -295,7 +300,7 @@ table h2 {
   background-color: #fff;
 }
 .table-img {
-  width: 90%;
+  width: 30vw;
 }
 
 /* hereo section */
@@ -315,7 +320,7 @@ table h2 {
 input[type="text"],
 select,
 textarea {
-  width: 100%; /* Full width */
+  width: 100vw; /* Full width */
   padding: 20px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -376,38 +381,56 @@ input[type="submit"]:hover {
     padding: 15px;
     background-color: #1c7207;
   }
-  /* 
+}
+.logo {
+  width: 10vw;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  z-index: 2;
+}
+/* 
 
-
+/* 
  
 /*  Small desktops */
-  @media only screen and (min-width: 992px) {
-  }
-
+@media only screen and (min-width: 992px) {
   /* alter text width for larger screens */
-  .child-one {
-    /* background-color: #1c7207; */
-    display: inline-block;
-    width: 50%;
+  /* .child-one {
+      /* background-color: #1c7207; */
+  /* display: inline-block; */
+  /* width: 50vw; */
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+.logo {
+  width: 12vw;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  z-index: 2;
+}
+
+/*  Big destops */
+
+@media only screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none;
+  }
+  #about {
+    justify-items: self-end;
+  }
+}
+/* small mobiles */
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 20vw;
     margin-top: 1%;
     padding-bottom: 1%;
+    padding-right: 1%;
+    z-index: 2;
   }
-  .child-two {
-    margin-right: auto;
-    width: 20%;
-    background-color: #fff;
-    float: right;
-  }
-
-  /*  Big destops */
-  @media only screen and (min-width: 1020px) {
-  }
-  @media (max-width: 629px) {
-    .mobile-hide {
-      display: none;
-    }
-    #about {
-      justify-items: self-end;
-    }
+  .btn {
+    font-size: 0.5rem;
   }
 }
