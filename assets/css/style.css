@@ -58,16 +58,18 @@ h3 {
 .child-two {
    width: 100vw;
 }
+*/
 
 .customIndent {
   padding-left: 1.5em;
-} */
+  line-height: 1em;
+}
 
 #about {
   border-top: 15px solid #525252;
   border-bottom: 15px solid #525252;
   padding: 8px;
-  width: 100vw;
+  width: 96vw;
 }
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
@@ -273,7 +275,7 @@ table {
   margin-bottom: 1rem;
   background-color: #fff;
 }
-table td {
+/* table td {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
@@ -282,11 +284,11 @@ table th {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
-}
+} */
 th,
 td {
   text-align: center;
-  padding: 8px;
+  padding: 6px;
   vertical-align: top;
   background-color: #fff;
 }
@@ -297,6 +299,7 @@ table h2 {
 }
 .table-img {
   width: 25vw;
+  padding: 0;
 }
 
 /* hereo section */
