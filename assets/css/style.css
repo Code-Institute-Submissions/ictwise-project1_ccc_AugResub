@@ -16,7 +16,12 @@ h3 {
   font-family: Raleway, sans-serif;
   font-size: 1em;
 }
-
+header {
+  border-bottom: 15px solid #525252;
+}
+#indexImg {
+  width: 96vw;
+}
 .green {
   background-color: #1c7207;
 }
@@ -33,7 +38,7 @@ h3 {
   align-items: flex-end;
 }
 .logo {
-  width: 20vw;
+  width: 12vw;
   margin-top: 1%;
   padding-bottom: 1%;
   padding-right: 1%;
@@ -44,9 +49,10 @@ h3 {
 }
 .navbar {
   display: inline-block;
-  width: 60vw;
+  width: auto;
   margin-top: 1%;
   padding-bottom: 1%;
+  font-size: 1.5rem;
 }
 /* /* .child-one {
 
@@ -66,10 +72,9 @@ h3 {
 }
 
 #about {
-  border-top: 15px solid #525252;
-  border-bottom: 15px solid #525252;
+  /* border-top: 15px solid #525252;
+  border-bottom: 15px solid #525252; */
   padding: 8px;
-  width: 96vw;
 }
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
@@ -269,13 +274,13 @@ footer img {
 /* table styling */
 
 table {
-  /* border-collapse: collapse;
+  border-collapse: collapse;
   border-spacing: 0;
-  border: 0px solid #ddd; */
+  border: 0px solid #ddd;
   margin-bottom: 1rem;
   background-color: #fff;
 }
-/* table td {
+table td {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
@@ -284,7 +289,7 @@ table th {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
-} */
+}
 th,
 td {
   text-align: center;
@@ -303,8 +308,8 @@ table h2 {
 }
 
 /* hereo section */
-.hero {
-  background: url("../images/CCC-by-Castle-1010x300.jpg");
+/* .hero {
+  background: url("../images/index.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -313,7 +318,7 @@ table h2 {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-}
+} */
 
 /* Contact form  Style inputs with type="text", select elements and textareas */
 input[type="text"],
@@ -356,7 +361,7 @@ input[type="submit"]:hover {
 /* Media queries for a seamless user experience.
 ** Tablets
 */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 993px) {
   #menuToggle input,
   #menuToggle span {
     display: none;
@@ -382,27 +387,6 @@ input[type="submit"]:hover {
   }
 }
 .logo {
-  width: 10vw;
-  margin-top: 1%;
-  padding-bottom: 1%;
-  padding-right: 1%;
-  z-index: 2;
-}
-/* 
-
-/* 
- 
-/*  Small desktops */
-@media only screen and (min-width: 992px) {
-  /* alter text width for larger screens */
-  /* .child-one {
-      /* background-color: #1c7207; */
-  /* display: inline-block; */
-  /* width: 50vw; */
-  margin-top: 1%;
-  padding-bottom: 1%;
-}
-.logo {
   width: 12vw;
   margin-top: 1%;
   padding-bottom: 1%;
@@ -410,17 +394,41 @@ input[type="submit"]:hover {
   z-index: 2;
 }
 
+/* 
+
+/* 
+ 
+/*  Small desktops */
+@media only screen and (max-width: 992px) {
+  #indexImg {
+    height: 20%;
+  }
+  .logo {
+    width: 12vw;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    z-index: 2;
+  }
+}
 /*  Big destops */
 
-@media only screen and (max-width: 600px) {
-  .mobile-hide {
-    display: none;
+@media only screen and (max-width: 4000px) {
+  #indexImg {
+    height: 20%;
+  }
+  .logo {
+    width: 12vw;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    z-index: 2;
   }
 }
 /* small mobiles */
 @media only screen and (max-width: 400px) {
   .logo {
-    width: 20vw;
+    width: 15vw;
     margin-top: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
