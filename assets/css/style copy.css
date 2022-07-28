@@ -205,14 +205,14 @@ h3 {
 }
 /* call to action button */
 
-/* #action {
+#action {
   position: fixed;
   top: 0;
   left: 0;
   width: 50vw;
   height: 100vh;
   margin: 0;
-} */
+}
 /* ----------------------------------------Footer */
 
 footer {
