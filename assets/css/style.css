@@ -68,7 +68,7 @@ header {
 
 /* hero */
 .hero {
-  min-height: 50vh;
+  height: 30vh;
   background: #ffffff url("../images/index.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
@@ -95,16 +95,10 @@ header {
 
 /* hero end */
 
-.customIndent {
-  padding-left: 1.5em;
-  line-height: 1em;
-}
-
 #about {
   /* border-top: 15px solid #525252;
   border-bottom: 15px solid #525252; */
   padding: 8px;
-  margin-right: 3vw;
 }
 
 /* responsive nav bar  https://codepen.io/nicolettafbr/pen/KKNydVK*/
@@ -310,7 +304,7 @@ table {
   margin-bottom: 1rem;
   background-color: #fff;
 }
-table td {
+/* table td {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
@@ -319,13 +313,14 @@ table th {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
-}
+} */
 th,
 td {
   text-align: center;
   padding: 6px;
   vertical-align: top;
   background-color: #fff;
+  width: 30vw;
 }
 table h3,
 table h2 {
@@ -337,24 +332,42 @@ table h2 {
   padding: 0;
 }
 
-/* hereo section */
-/* .hero {
-  background: url("../images/index.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+/* contact image section */
+#contactHero {
+  height: 40vh;
+  background: #ffffff url("../images/contact.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 400px;
-  margin-bottom: 1rem;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-} */
+  position: relative;
+}
+.contactHeroText {
+  position: absolute;
+  bottom: 5vh;
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  background-color: #1c7207;
+}
+
+/* join image section */
+#joinHero {
+  height: 40vh;
+  background: #ffffff url("../images/join2.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.joinHeroText {
+  position: absolute;
+  bottom: 5vh;
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  background-color: #1c7207;
+}
 
 /* Contact form  Style inputs with type="text", select elements and textareas */
+
 input[type="text"],
 select,
 textarea {
-  width: 100vw; /* Full width */
+  width: 96vw; /*  width */
   padding: 20px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
