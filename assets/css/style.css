@@ -5,7 +5,7 @@
   padding: 0;
   background-color: #1c7207;
 }
-/* -----------------header */
+/* ---header */
 h2 {
   font-family: Raleway, sans-serif;
   font-size: 1.2em;
@@ -54,17 +54,6 @@ header {
   padding-bottom: 1%;
   font-size: 1.5rem;
 }
-/* /* .child-one {
-
-  position: static;
-  width: 100vw;
-  margin-top: 1%;
-  padding-bottom: 1%;
-}
-.child-two {
-   width: 100vw;
-}
-*/
 
 /* hero */
 .hero {
@@ -96,8 +85,6 @@ header {
 /* hero end */
 
 #about {
-  /* border-top: 15px solid #525252;
-  border-bottom: 15px solid #525252; */
   padding: 8px;
 }
 
@@ -234,16 +221,7 @@ header {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
-/* call to action button */
 
-/* #action {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 50vw;
-  height: 100vh;
-  margin: 0;
-} */
 /* ----------------------------------------Footer */
 
 footer {
@@ -304,16 +282,7 @@ table {
   margin-bottom: 1rem;
   background-color: #fff;
 }
-/* table td {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-}
-table th {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-} */
+
 th,
 td {
   text-align: center;
@@ -435,17 +404,13 @@ input[type="submit"]:hover {
   z-index: 2;
 }
 
-/* 
-
-/* 
- 
 /*  Small desktops */
 @media only screen and (max-width: 992px) {
   #indexImg {
     height: 20%;
   }
   .logo {
-    width: 12vw;
+    width: 10vw;
     margin-top: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
@@ -455,11 +420,8 @@ input[type="submit"]:hover {
 /*  Big destops */
 
 @media only screen and (max-width: 4000px) {
-  /* #indexImg {
-    height: 20%;
-  } */
   .logo {
-    width: 12vw;
+    width: 8vw;
     margin-top: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
