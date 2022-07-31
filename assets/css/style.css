@@ -38,7 +38,7 @@ header {
   align-items: flex-end;
 }
 .logo {
-  width: 12vw;
+  width: 10vw;
   margin-top: 1vh;
   margin-right: 2vw;
 
@@ -68,7 +68,7 @@ header {
 
 /* hero */
 .hero {
-  height: 30vh;
+  height: 40vh;
   background: #ffffff url("../images/index.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
@@ -90,7 +90,7 @@ header {
   position: absolute;
   bottom: 70px;
   color: #fff;
-  width: 70vw;
+  width: 50vw;
 }
 
 /* hero end */
@@ -341,10 +341,9 @@ table h2 {
 }
 .contactHeroText {
   position: absolute;
-  bottom: 5vh;
-  color: rgb(255, 255, 255);
+  bottom: 70px;
+  color: #fff;
   width: 50vw;
-  background-color: #1c7207;
 }
 
 /* join image section */
@@ -356,10 +355,9 @@ table h2 {
 }
 .joinHeroText {
   position: absolute;
-  bottom: 5vh;
-  color: rgb(255, 255, 255);
+  bottom: 70px;
+  color: #fff;
   width: 50vw;
-  background-color: #1c7207;
 }
 
 /* Contact form  Style inputs with type="text", select elements and textareas */
@@ -457,9 +455,9 @@ input[type="submit"]:hover {
 /*  Big destops */
 
 @media only screen and (max-width: 4000px) {
-  #indexImg {
+  /* #indexImg {
     height: 20%;
-  }
+  } */
   .logo {
     width: 12vw;
     margin-top: 1%;
