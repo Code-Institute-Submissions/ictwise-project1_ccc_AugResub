@@ -83,7 +83,7 @@ Any design needs to be mobile first.
 # Demo
 
 A live demo of this project can be found [here](https://ictwise.github.io/project1_ccc/).
-![Desktop Demo](assets\images\responsiveNew.png "Desktop Demo")
+![Desktop Demo](assets/images/responsiveNew.png "Desktop Demo")
 
 # UX
 
