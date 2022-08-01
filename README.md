@@ -52,6 +52,28 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc --><!-- vscode-markdown-toc -->
 
+# User Centric Frontend Development Project Resubmition
+
+Based on feedback on my project I have made the following improvements.
+
+### Criterion 1.3 and 1.5
+
+The navigation bar has had a call to action button added to join the club that appears on all pages of the site. Bootstrap is used to position this. The header section has been completely redesigned using images from freepix to give a more professional finish. Bootstap was used to place text above the image to inform the user. Content has been seperated and positioning improved. On the ride page content and layout has been improved and shading added to sections.
+
+### Criterion 2.3 and 2.4
+
+All pages of the site pass validation.
+![validation](assets\images\valIndex.png "Desktop Demo")
+![validation](assets\images\valRide.png "Desktop Demo")
+![validation](assets\images\valJoin.png "Desktop Demo")
+![validation](assets\images\valContact.png "Desktop Demo")
+
+All images have been replaced, and optimised.
+
+### Criterion 5.1
+
+Manual testing results are added to the readme.md. User stories are tested. Screenshots for the user stories and tests are listed in this readme.
+
 # <a name='Staticresponsivewebsite-Stream1Project'></a>Static responsive website - Stream 1 Project -Caerphilly Cycling Club (CCC)
 
 I'm a member of Caerphilly Cycling Club. We have a serviceable website, it is static, has not been changed in more than 5 years but generally the content is good. The main failing of the site is that it is not responsive. A sample survey of current members showed that during the last 5 years most users have moved from desktop to mobile devices to view the site.
@@ -61,7 +83,7 @@ Any design needs to be mobile first.
 # Demo
 
 A live demo of this project can be found [here](https://ictwise.github.io/project1_ccc/).
-![Desktop Demo](https://www.caerphillycc.co.uk/wp-content/uploads/2021/05/CCC-Castle-Path-1010x300.jpg "Desktop Demo")
+![Desktop Demo](assets\images\responsiveNew.png "Desktop Demo")
 
 # UX
 
@@ -145,6 +167,7 @@ Ask for advice from the club members and committee about policy decisions.
 ### 4.2. <a name='UserStories:'></a>**User Stories:**
 
 - As a user, I want to find information on the club.
+- As a user, I want to be able to join the club.
 - As a user, I want to navigate the page to find what I require quickly and easily.
 - As a user, I want to know how to contact the club.
 - As a user, I was to find ride times and locations.
@@ -260,7 +283,7 @@ Tests using Chrome developer and vs code studio was done at each stage of develo
 
 I used browserstack.com to check how the site looked on the most popular mobile devices and ami.responsiv.is
 
-![responsive screenshot](assets/images/responsive.png)
+image.png
 
 the css I ran through http://csslint.net/ no errors were identified.
 
@@ -274,9 +297,66 @@ and
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fictwise.github.io%2Fproject1_ccc%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 to check my code.
 
-I ran my html through http://pep8online.com/
+## User Story Testing
 
-My criteria for error checking and the results are listed [here ](assets/doc/test-cases.xlsx)
+| User story                                                                        | Test                                                                                                                                     | Screenshot                                                                         |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| As a user, I want to find information on the club.                                | Every page of the site has information on the club, particularly the about section on index.html                                         | <img src="assets\images\aboutSS.png" alt="about screen" style="width:800px;"/>     |
+| As a user, I want to be able to join the club.                                    | Every page of the site has a 'Join us' button in the navigation bar                                                                      | <img src="assets\images\joinSS.png" alt="join screen" style="width:800px;"/>       |
+| As a user, I want to navigate the page to find what I require quickly and easily. | Every page of the site has a navigation bar/menu that shows all pages of the site                                                        | <img src="assets\images\menuSS.png" alt="menu screen" style="width:800px;"/>       |
+| As a user, I want to know how to contact the club.                                | The contact page has a form to contact the club.                                                                                         | <img src="assets\images\contactSS.png" alt="contact screen" style="width:800px;"/> |
+| As a user, I was to find ride times and locations.                                | The ride page has all ride times and details, with a location map at the bottom of the screen. Ride times are repeated on the index page | <img src="assets\images\rideSS.png" alt="ride screen" style="width:800px;"/>       |
+| As a user, I want to understand what is required of riders on a club ride.        | Ride information is shown on the ride page with a link to a pdf of the club code of conduct.                                             | <img src="assets\images\codSS.png" alt="code of conduct" style="width:800px;"/>    |
+
+## Test Framework
+
+| Test Case                                  |                    |                   |                   |                  |
+| ------------------------------------------ | ------------------ | ----------------- | ----------------- | ---------------- |
+|                                            | desktop 1600x992px | Laptop 1280x802px | Tablet 768x1024px | Mobile 320x480px |
+| index.html                                 |                    |                   |                   |                  |
+| Navbar all links work                      | X                  | X                 | X                 | X                |
+| Hamburger shows                            |                    |                   | X                 | X                |
+| Nav menu opens                             |                    |                   | X                 | X                |
+| social media                               |                    |                   |                   |                  |
+| hover effect                               | X                  | X                 | X                 | X                |
+| links open in new tab to ccc               | X                  | X                 | X                 | X                |
+| logos hide                                 |                    |                   | X                 | X                |
+| navbar join us link opens in new tab       | X                  | X                 | X                 | X                |
+| hero join us link opens in new tab         | X                  | X                 | X                 | X                |
+| ride.html                                  |                    |                   |                   |                  |
+| Navbar all links work                      | X                  | X                 | X                 | X                |
+| Hamburger shows                            |                    |                   | X                 | X                |
+| Nav menu opens                             |                    |                   | X                 | X                |
+| navbar join us link opens in new tab       | X                  | X                 | X                 | X                |
+| social media                               |                    |                   |                   |                  |
+| hover effect                               | X                  | X                 | X                 | X                |
+| links open in new tab to ccc               | X                  | X                 | X                 | X                |
+| logos hide                                 |                    |                   | X                 | X                |
+| Code of Conduct opens pdf in new tab       | X                  | X                 | X                 | X                |
+| Map shows                                  | X                  | X                 | X                 | X                |
+| join.html                                  |                    |                   |                   |                  |
+| Navbar all links work                      | X                  | X                 | X                 | X                |
+| Hamburger shows                            |                    |                   | X                 | X                |
+| navbar join us link opens in new tab       | X                  | X                 | X                 | X                |
+| Nav menu opens                             |                    |                   | X                 | X                |
+| social media                               |                    |                   |                   |                  |
+| hover effect                               | X                  | X                 | X                 | X                |
+| links open in new tab to ccc               | X                  | X                 | X                 | X                |
+| logos hide                                 |                    |                   | X                 | X                |
+| join button opens external link in new tab | X                  | X                 | X                 | X                |
+| strava link opens new tab                  | X                  | X                 | X                 | X                |
+| contact.html                               |                    |                   |                   |                  |
+| Navbar all links work                      | X                  | X                 | X                 | X                |
+| Hamburger shows                            |                    |                   | X                 | X                |
+| Nav menu opens                             |                    |                   | X                 | X                |
+| join button opens external link in new tab | X                  | X                 | X                 | X                |
+| social media                               |                    |                   |                   |                  |
+| hover effect                               | X                  | X                 | X                 | X                |
+| links open in new tab to ccc               | X                  | X                 | X                 | X                |
+| logos hide                                 |                    |                   | X                 | X                |
+| Submit button sends email                  | X                  | X                 | X                 | X                |
+
+My criteria for error checking and the results can be downloaded [here ](assets/doc/test-cases.xlsx)
 
 ## 13. <a name='OpenandClosedIssues'></a> Open and Closed Issues
 
@@ -324,4 +404,4 @@ I deployed the page on GitHub pages via the following procedure: -
 
 ### 15.3. <a name='Media:'></a>**Media:**
 
-- images provided by CCC
+- images created by wirestock - www.freepik.com

@@ -23,6 +23,10 @@ h3 {
   font-family: Raleway, sans-serif;
   font-size: 1em;
 }
+h4 {
+  font-family: Raleway, sans-serif;
+  font-size: 0.5em;
+}
 header {
   border-bottom: 15px solid #525252;
 }
