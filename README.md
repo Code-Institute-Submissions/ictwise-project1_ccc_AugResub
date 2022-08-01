@@ -63,10 +63,10 @@ The navigation bar has had a call to action button added to join the club that a
 ### Criterion 2.3 and 2.4
 
 All pages of the site pass validation.
-![validation](assets\images\valIndex.png "Desktop Demo")
-![validation](assets\images\valRide.png "Desktop Demo")
-![validation](assets\images\valJoin.png "Desktop Demo")
-![validation](assets\images\valContact.png "Desktop Demo")
+![validation](assets/images/valIndex.png "Desktop Demo")
+![validation](assets/images/valRide.png "Desktop Demo")
+![validation](assets/images/valJoin.png "Desktop Demo")
+![validation](assets/images/valContact.png "Desktop Demo")
 
 All images have been replaced, and optimised.
 
